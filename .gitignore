@@ -1,0 +1,21 @@
+# Entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de configuración sensibles
+.env
+
+# Archivos temporales de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Base de datos de ChromaDB
+db/
+
+# Archivos de logs
+*.log
+
+# Archivos de prueba de texto
+data/*.txt
+!data/example.txt  # Este lo puedes dejar si quieres un ejemplo visible
