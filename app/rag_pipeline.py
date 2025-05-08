@@ -35,7 +35,7 @@ def generate_answer(user_question: str) -> str:
             },
             {"role": "user", "content": prompt}
         ],
-        temperature=0.3  # Más precisión, menos alucinación
+        temperature=0.8  # Más precisión, menos alucinación
     )
 
     return response.choices[0].message.content.strip()
